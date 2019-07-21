@@ -1,0 +1,43 @@
+.products_wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.product_item {
+	padding: 2%;
+	flex-grow: 1;
+	flex-basis: 16%;
+
+}
+
+.product_img {
+	max-width: 100%;
+}
+
+.img {
+	width: 100%;
+	height: auto;
+}
+
+.product_about {
+ 	margin-top: auto;
+}
+
+@media (max-width: 991px) {
+  .product_item {
+    flex: 1 23%;
+  }
+}
+
+@media (max-width: 765px) {
+  .product_item {
+    flex: 1 32%;
+  }
+}
+
+@media (max-width: 580px) {
+  .product_item {
+    flex: 1 50%;
+  }
+}
